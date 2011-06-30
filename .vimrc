@@ -4,6 +4,8 @@ set number
 set wrap
 set hidden
 
+call pathogen#runtime_append_all_bundles() 
+
 compiler ruby
 
 set tabstop=2
